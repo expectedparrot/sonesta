@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "presentation_id": "demo",
+  "title": "Demo Deck",
+  "page_size": "widescreen",
+  "theme": "default",
+  "default_template": "default",
+  "slides": [
+    "slides/001-title.json",
+    "slides/002-summary.json",
+    "slides/003-roadmap.json"
+  ],
+  "build": {
+    "output": ".sonesta/builds/demo/demo.pptx"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "default",
+  "page_size": "widescreen",
+  "colors": {
+    "background": "#FFFFFF",
+    "text": "#111111",
+    "accent": "#1F5AA6"
+  },
+  "fonts": {
+    "heading": "Aptos",
+    "body": "Aptos"
+  },
+  "styles": {
+    "headline": {
+      "font_family": "Aptos",
+      "font_size": 22,
+      "bold": true,
+      "color": "#111111"
+    },
+    "body": {
+      "font_family": "Aptos",
+      "font_size": 16,
+      "bold": false,
+      "color": "#111111"
+    }
+  }
+}

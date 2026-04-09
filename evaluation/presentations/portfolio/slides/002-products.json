@@ -1,0 +1,82 @@
+{
+  "slide_id": "products",
+  "kind": "content",
+  "title": "Products",
+  "template": null,
+  "elements": [
+    {
+      "element_id": "body",
+      "type": "text",
+      "slot": "body",
+      "text": "",
+      "style": "body"
+    },
+    {
+      "element_id": "title_copy",
+      "type": "text",
+      "text": "Product portfolio",
+      "x": 1.0,
+      "y": 0.95,
+      "w": 4.0,
+      "h": 0.6,
+      "style": "headline"
+    },
+    {
+      "element_id": "product_a",
+      "type": "image",
+      "path": "assets/product-a.png",
+      "fit": "contain",
+      "x": 1.0,
+      "y": 1.8,
+      "w": 3.2,
+      "h": 1.8
+    },
+    {
+      "element_id": "product_b",
+      "type": "image",
+      "path": "assets/product-b.png",
+      "fit": "contain",
+      "x": 5.0,
+      "y": 1.8,
+      "w": 3.2,
+      "h": 1.8
+    },
+    {
+      "element_id": "product_c",
+      "type": "image",
+      "path": "assets/product-c.png",
+      "fit": "contain",
+      "x": 9.0,
+      "y": 1.8,
+      "w": 3.2,
+      "h": 1.8
+    },
+    {
+      "element_id": "caption_a",
+      "type": "text",
+      "text": "Analytics Cloud",
+      "x": 1.0,
+      "y": 3.8,
+      "w": 3.2,
+      "h": 0.4
+    },
+    {
+      "element_id": "caption_b",
+      "type": "text",
+      "text": "Workflow Studio",
+      "x": 5.0,
+      "y": 3.8,
+      "w": 3.2,
+      "h": 0.4
+    },
+    {
+      "element_id": "caption_c",
+      "type": "text",
+      "text": "Ops Copilot",
+      "x": 9.0,
+      "y": 3.8,
+      "w": 3.2,
+      "h": 0.4
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "slide_id": "process",
+  "kind": "content",
+  "title": "Process",
+  "template": null,
+  "elements": [
+    {
+      "element_id": "step1",
+      "type": "shape",
+      "shape": "rect",
+      "x": 1.0,
+      "y": 2.0,
+      "w": 2.2,
+      "h": 0.9,
+      "text": "Lorem"
+    },
+    {
+      "element_id": "step2",
+      "type": "shape",
+      "shape": "rect",
+      "x": 4.0,
+      "y": 2.0,
+      "w": 2.2,
+      "h": 0.9,
+      "text": "Ipsum"
+    },
+    {
+      "element_id": "step3",
+      "type": "shape",
+      "shape": "rect",
+      "x": 7.0,
+      "y": 2.0,
+      "w": 2.2,
+      "h": 0.9,
+      "text": "Dolor"
+    },
+    {
+      "element_id": "step4",
+      "type": "shape",
+      "shape": "rect",
+      "x": 10.0,
+      "y": 2.0,
+      "w": 2.2,
+      "h": 0.9,
+      "text": "Amet"
+    },
+    {
+      "element_id": "link1",
+      "type": "shape",
+      "shape": "line",
+      "x": 3.2,
+      "y": 2.4,
+      "w": 0.8,
+      "h": 0.05
+    },
+    {
+      "element_id": "link2",
+      "type": "shape",
+      "shape": "line",
+      "x": 6.2,
+      "y": 2.4,
+      "w": 0.8,
+      "h": 0.05
+    },
+    {
+      "element_id": "link3",
+      "type": "shape",
+      "shape": "line",
+      "x": 9.2,
+      "y": 2.4,
+      "w": 0.8,
+      "h": 0.05
+    },
+    {
+      "element_id": "explainer",
+      "type": "text",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
+      "x": 1.0,
+      "y": 4.0,
+      "w": 11.0,
+      "h": 1.2
+    }
+  ]
+}

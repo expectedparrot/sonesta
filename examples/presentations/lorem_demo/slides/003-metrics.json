@@ -1,0 +1,79 @@
+{
+  "slide_id": "metrics",
+  "kind": "content",
+  "title": "Metrics",
+  "template": null,
+  "elements": [
+    {
+      "element_id": "trend",
+      "type": "chart",
+      "chart_type": "column",
+      "categories": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr"
+      ],
+      "series": [
+        {
+          "name": "Lorem",
+          "values": [
+            12,
+            18,
+            16,
+            22
+          ]
+        },
+        {
+          "name": "Ipsum",
+          "values": [
+            8,
+            9,
+            13,
+            17
+          ]
+        }
+      ],
+      "show_legend": true,
+      "x": 0.9,
+      "y": 1.5,
+      "w": 6.1,
+      "h": 3.8,
+      "title": "Lorem Ipsum Trend"
+    },
+    {
+      "element_id": "summary",
+      "type": "table",
+      "rows": [
+        [
+          "Metric",
+          "Value"
+        ],
+        [
+          "Lorem",
+          "42"
+        ],
+        [
+          "Ipsum",
+          "17"
+        ],
+        [
+          "Dolor",
+          "93%"
+        ]
+      ],
+      "first_row_header": true,
+      "x": 7.4,
+      "y": 1.7,
+      "w": 5.0,
+      "h": 2.7
+    },
+    {
+      "element_id": "footer",
+      "type": "text",
+      "text": "All values are placeholder demo content.",
+      "slot": "footer",
+      "style": "body"
+    }
+  ]
+}

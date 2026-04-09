@@ -1,0 +1,15 @@
+{
+  "slide_id": "title",
+  "kind": "title",
+  "title": "Demo Deck",
+  "elements": [
+    {
+      "element_id": "subtitle",
+      "type": "text",
+      "slot": "body",
+      "text": "Generated from a structured Sonesta example.",
+      "style": "body",
+      "font_size": 18
+    }
+  ]
+}

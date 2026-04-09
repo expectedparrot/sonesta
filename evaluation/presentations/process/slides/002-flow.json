@@ -1,0 +1,91 @@
+{
+  "slide_id": "flow",
+  "kind": "content",
+  "title": "Flow",
+  "template": null,
+  "elements": [
+    {
+      "element_id": "body",
+      "type": "text",
+      "slot": "body",
+      "text": "",
+      "style": "body"
+    },
+    {
+      "element_id": "step1",
+      "type": "shape",
+      "shape": "rect",
+      "x": 1.0,
+      "y": 2.0,
+      "w": 2.2,
+      "h": 0.9,
+      "text": "Brief"
+    },
+    {
+      "element_id": "step2",
+      "type": "shape",
+      "shape": "rect",
+      "x": 4.0,
+      "y": 2.0,
+      "w": 2.2,
+      "h": 0.9,
+      "text": "Draft"
+    },
+    {
+      "element_id": "step3",
+      "type": "shape",
+      "shape": "rect",
+      "x": 7.0,
+      "y": 2.0,
+      "w": 2.2,
+      "h": 0.9,
+      "text": "Review"
+    },
+    {
+      "element_id": "step4",
+      "type": "shape",
+      "shape": "rect",
+      "x": 10.0,
+      "y": 2.0,
+      "w": 2.2,
+      "h": 0.9,
+      "text": "Ship"
+    },
+    {
+      "element_id": "link1",
+      "type": "shape",
+      "shape": "line",
+      "x": 3.2,
+      "y": 2.4,
+      "w": 0.8,
+      "h": 0.05
+    },
+    {
+      "element_id": "link2",
+      "type": "shape",
+      "shape": "line",
+      "x": 6.2,
+      "y": 2.4,
+      "w": 0.8,
+      "h": 0.05
+    },
+    {
+      "element_id": "link3",
+      "type": "shape",
+      "shape": "line",
+      "x": 9.2,
+      "y": 2.4,
+      "w": 0.8,
+      "h": 0.05
+    },
+    {
+      "element_id": "explainer",
+      "type": "text",
+      "text": "This should be a simple process diagram with explicit connectors and equal spacing.",
+      "x": 1.0,
+      "y": 4.0,
+      "w": 11.2,
+      "h": 1.5
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+.pytest_cache/
+__pycache__/
+*.pyc
+
+.DS_Store
+
+.sonesta/builds/
+.sonesta/cache/
+
+examples/.sonesta/builds/
+examples/.sonesta/cache/
+evaluation/.sonesta/builds/
+evaluation/.sonesta/cache/

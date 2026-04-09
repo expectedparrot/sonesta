@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "presentation_id": "lorem_demo",
+  "title": "Lorem Demo",
+  "page_size": "widescreen",
+  "theme": "default",
+  "default_template": "default",
+  "slides": [
+    "slides/001-title.json",
+    "slides/002-overview.json",
+    "slides/003-metrics.json",
+    "slides/004-process.json"
+  ],
+  "build": {
+    "output": ".sonesta/builds/lorem_demo/lorem_demo.pptx"
+  }
+}

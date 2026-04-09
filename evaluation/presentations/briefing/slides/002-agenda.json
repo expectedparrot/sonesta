@@ -1,0 +1,35 @@
+{
+  "slide_id": "agenda",
+  "kind": "content",
+  "title": "Agenda",
+  "template": null,
+  "elements": [
+    {
+      "element_id": "body",
+      "type": "text",
+      "slot": "body",
+      "text": "",
+      "style": "body"
+    },
+    {
+      "element_id": "headline",
+      "type": "text",
+      "text": "Executive agenda",
+      "x": 1.0,
+      "y": 1.0,
+      "w": 4.0,
+      "h": 0.6,
+      "style": "headline"
+    },
+    {
+      "element_id": "bullets",
+      "type": "text",
+      "text": "1. Revenue up 24%\\n2. Three launches on track\\n3. Hiring bottleneck in data team",
+      "x": 1.0,
+      "y": 1.8,
+      "w": 7.0,
+      "h": 2.5
+    }
+  ],
+  "notes_path": "../notes/002-agenda.md"
+}

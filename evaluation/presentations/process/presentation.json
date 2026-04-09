@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "presentation_id": "process",
+  "title": "Process",
+  "page_size": "widescreen",
+  "theme": "default",
+  "default_template": "default",
+  "slides": [
+    "slides/001-title.json",
+    "slides/002-flow.json"
+  ],
+  "build": {
+    "output": ".sonesta/builds/process/process.pptx"
+  }
+}

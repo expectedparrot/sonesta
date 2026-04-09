@@ -1,0 +1,65 @@
+{
+  "slide_id": "summary",
+  "kind": "content",
+  "title": "Summary",
+  "template": "default",
+  "elements": [
+    {
+      "element_id": "metrics",
+      "type": "table",
+      "slot": "hero",
+      "rows": [
+        [
+          "Metric",
+          "Value"
+        ],
+        [
+          "Revenue",
+          "$10M"
+        ],
+        [
+          "Growth",
+          "24%"
+        ]
+      ],
+      "column_widths": [
+        2.5,
+        2.0
+      ]
+    },
+    {
+      "element_id": "sales_chart",
+      "type": "chart",
+      "x": 7.1,
+      "y": 1.4,
+      "w": 5.3,
+      "h": 3.6,
+      "chart_type": "column",
+      "title": "Quarterly Sales",
+      "show_legend": true,
+      "value_format": "0",
+      "categories": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ],
+      "series": [
+        {
+          "name": "Sales",
+          "values": [
+            10,
+            12,
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "element_id": "footer_text",
+      "type": "text",
+      "slot": "footer",
+      "text": "Example fixture deck for Sonesta.",
+      "style": "body"
+    }
+  ]
+}

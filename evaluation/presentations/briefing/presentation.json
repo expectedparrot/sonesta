@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "presentation_id": "briefing",
+  "title": "Briefing",
+  "page_size": "widescreen",
+  "theme": "default",
+  "default_template": "default",
+  "slides": [
+    "slides/001-title.json",
+    "slides/002-agenda.json",
+    "slides/003-decisions.json"
+  ],
+  "build": {
+    "output": ".sonesta/builds/briefing/briefing.pptx"
+  }
+}

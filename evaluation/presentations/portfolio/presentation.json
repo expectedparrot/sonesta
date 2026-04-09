@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "presentation_id": "portfolio",
+  "title": "Portfolio",
+  "page_size": "widescreen",
+  "theme": "default",
+  "default_template": "default",
+  "slides": [
+    "slides/001-title.json",
+    "slides/002-products.json",
+    "slides/003-metrics.json"
+  ],
+  "build": {
+    "output": ".sonesta/builds/portfolio/portfolio.pptx"
+  }
+}

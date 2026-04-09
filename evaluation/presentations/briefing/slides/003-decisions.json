@@ -1,0 +1,50 @@
+{
+  "slide_id": "decisions",
+  "kind": "content",
+  "title": "Decisions",
+  "template": null,
+  "elements": [
+    {
+      "element_id": "body",
+      "type": "text",
+      "slot": "body",
+      "text": "",
+      "style": "body"
+    },
+    {
+      "element_id": "decision_table",
+      "type": "table",
+      "rows": [
+        [
+          "Decision",
+          "Owner",
+          "Status"
+        ],
+        [
+          "Pricing refresh",
+          "Maya",
+          "Approve"
+        ],
+        [
+          "Data vendor",
+          "Sam",
+          "Review"
+        ],
+        [
+          "Field pilot",
+          "Rina",
+          "Go"
+        ]
+      ],
+      "first_row_header": true,
+      "slot": "hero"
+    },
+    {
+      "element_id": "footer_copy",
+      "type": "text",
+      "text": "Decision review for Monday operating cadence.",
+      "slot": "footer",
+      "style": "body"
+    }
+  ]
+}

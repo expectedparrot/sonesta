@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sonesta"
+version = "0.1.0"
+description = "Agent-focused Python CLI for programmatic PowerPoint generation."
+readme = "SPEC.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2.7,<3",
+  "python-pptx>=0.6.23,<1",
+  "Pillow>=10,<12",
+  "typer>=0.12,<1",
+]
+
+[project.scripts]
+sonesta = "sonesta.cli:app"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

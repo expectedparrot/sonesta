@@ -1,0 +1,15 @@
+{
+  "slide_id": "title",
+  "kind": "title",
+  "title": "Lorem Demo",
+  "elements": [
+    {
+      "element_id": "subtitle",
+      "type": "text",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "style": "body",
+      "font_size": 18,
+      "slot": "body"
+    }
+  ]
+}

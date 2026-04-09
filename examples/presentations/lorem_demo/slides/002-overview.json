@@ -1,0 +1,56 @@
+{
+  "slide_id": "overview",
+  "kind": "content",
+  "title": "Overview",
+  "template": null,
+  "elements": [
+    {
+      "element_id": "headline",
+      "type": "text",
+      "text": "Lorem Ipsum Overview",
+      "x": 0.9,
+      "y": 0.95,
+      "w": 4.8,
+      "h": 0.6,
+      "style": "headline"
+    },
+    {
+      "element_id": "bullets",
+      "type": "text",
+      "text": "",
+      "paragraphs": [
+        {
+          "text": "Lorem ipsum dolor sit amet",
+          "bullet": true,
+          "level": 0
+        },
+        {
+          "text": "Sed do eiusmod tempor incididunt",
+          "bullet": true,
+          "level": 0
+        },
+        {
+          "text": "Ut enim ad minim veniam",
+          "bullet": true,
+          "level": 0
+        }
+      ],
+      "x": 0.9,
+      "y": 1.8,
+      "w": 5.3,
+      "h": 2.2,
+      "style": "body"
+    },
+    {
+      "element_id": "callout",
+      "type": "shape",
+      "shape": "rect",
+      "x": 6.9,
+      "y": 1.7,
+      "w": 5.2,
+      "h": 2.0,
+      "text": "Dolor sit amet\\nConsectetur adipiscing elit"
+    }
+  ],
+  "notes_path": "../notes/002-overview.md"
+}

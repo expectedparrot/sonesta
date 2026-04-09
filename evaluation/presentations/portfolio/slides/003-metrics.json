@@ -1,0 +1,79 @@
+{
+  "slide_id": "metrics",
+  "kind": "content",
+  "title": "Metrics",
+  "template": null,
+  "elements": [
+    {
+      "element_id": "body",
+      "type": "text",
+      "slot": "body",
+      "text": "",
+      "style": "body"
+    },
+    {
+      "element_id": "adoption",
+      "type": "chart",
+      "chart_type": "column",
+      "categories": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr"
+      ],
+      "series": [
+        {
+          "name": "Trials",
+          "values": [
+            20,
+            28,
+            33,
+            41
+          ]
+        },
+        {
+          "name": "Paid",
+          "values": [
+            8,
+            11,
+            14,
+            18
+          ]
+        }
+      ],
+      "show_legend": true,
+      "x": 0.9,
+      "y": 1.5,
+      "w": 6.0,
+      "h": 3.8,
+      "title": "Adoption funnel"
+    },
+    {
+      "element_id": "summary_table",
+      "type": "table",
+      "rows": [
+        [
+          "Metric",
+          "Value"
+        ],
+        [
+          "ARR",
+          "$14.2M"
+        ],
+        [
+          "NDR",
+          "118%"
+        ],
+        [
+          "Pipeline",
+          "$4.1M"
+        ]
+      ],
+      "first_row_header": true,
+      "x": 7.4,
+      "y": 1.6,
+      "w": 5.0,
+      "h": 2.8
+    }
+  ]
+}

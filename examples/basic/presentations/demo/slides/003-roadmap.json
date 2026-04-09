@@ -1,0 +1,63 @@
+{
+  "slide_id": "roadmap",
+  "kind": "content",
+  "title": "Roadmap",
+  "template": "default",
+  "elements": [
+    {
+      "element_id": "step_1",
+      "type": "shape",
+      "x": 1.0,
+      "y": 1.8,
+      "w": 3.2,
+      "h": 1.0,
+      "shape": "rect",
+      "text": "1. Define deck"
+    },
+    {
+      "element_id": "step_2",
+      "type": "shape",
+      "x": 5.0,
+      "y": 1.8,
+      "w": 3.2,
+      "h": 1.0,
+      "shape": "rect",
+      "text": "2. Validate spec"
+    },
+    {
+      "element_id": "step_3",
+      "type": "shape",
+      "x": 9.0,
+      "y": 1.8,
+      "w": 3.2,
+      "h": 1.0,
+      "shape": "rect",
+      "text": "3. Render PPTX"
+    },
+    {
+      "element_id": "line_1",
+      "type": "shape",
+      "x": 4.2,
+      "y": 2.15,
+      "w": 0.8,
+      "h": 0.05,
+      "shape": "line"
+    },
+    {
+      "element_id": "line_2",
+      "type": "shape",
+      "x": 8.2,
+      "y": 2.15,
+      "w": 0.8,
+      "h": 0.05,
+      "shape": "line"
+    },
+    {
+      "element_id": "body_copy",
+      "type": "text",
+      "slot": "footer",
+      "text": "This slide shows simple diagram-like composition from shapes.",
+      "style": "body"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Example speaker note: keep this introductory slide short.
