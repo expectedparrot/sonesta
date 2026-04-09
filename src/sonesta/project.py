@@ -58,6 +58,10 @@ def resolve_theme_path(project_root: Path, theme_ref: str) -> Path:
     named = project_root / ".sonesta" / "themes" / f"{theme_ref}.json"
     if named.exists():
         return named
+    # Fall back to built-in themes bundled with the sonesta package
+    builtin = Path(__file__).parent / "themes" / f"{theme_ref}.json"
+    if builtin.exists():
+        return builtin
     return (project_root / candidate).resolve()
 
 

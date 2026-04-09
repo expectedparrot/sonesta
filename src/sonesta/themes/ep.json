@@ -1,0 +1,27 @@
+{
+  "name": "ep",
+  "page_size": "widescreen",
+  "colors": {
+    "background": "#FFFFFF",
+    "text": "#1f2937",
+    "accent": "#1DA66A"
+  },
+  "fonts": {
+    "heading": "Plus Jakarta Sans",
+    "body": "Plus Jakarta Sans"
+  },
+  "styles": {
+    "headline": {
+      "font_family": "Plus Jakarta Sans",
+      "font_size": 28,
+      "bold": true,
+      "color": "#00663A"
+    },
+    "body": {
+      "font_family": "Plus Jakarta Sans",
+      "font_size": 20,
+      "bold": false,
+      "color": "#1f2937"
+    }
+  }
+}

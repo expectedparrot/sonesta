@@ -46,6 +46,7 @@ class TextElement(BaseElement):
     paragraphs: list["TextParagraph"] = Field(default_factory=list)
     font_size: int | None = None
     bold: bool | None = None
+    line_spacing: float | None = None  # multiplier, e.g. 1.3 for 130%
 
 
 class TextParagraph(BaseModel):
@@ -55,6 +56,9 @@ class TextParagraph(BaseModel):
     bullet: bool = False
     level: int = 0
     bold: bool | None = None
+    space_before: int | None = None  # points
+    space_after: int | None = None   # points
+    url: str | None = None           # hyperlink URL for this paragraph's text
 
 
 class ImageElement(BaseElement):
@@ -191,8 +195,8 @@ class LoadedPresentation(BaseModel):
 class ThemeFonts(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
-    heading: str = "Aptos"
-    body: str = "Aptos"
+    heading: str = "Plus Jakarta Sans"
+    body: str = "Plus Jakarta Sans"
 
 
 class TextStyle(BaseModel):
