@@ -133,8 +133,12 @@ def _add_text(slide, element: TextElement, box: tuple[float, float, float, float
         Inches(box[3]),
     )
     frame = textbox.text_frame
+    frame.word_wrap = True
     frame.clear()
+    line_spacing = element.line_spacing if element.line_spacing is not None else 1.3
     paragraphs = element.paragraphs or [TextParagraph(text=element.text)]
+    # Default space_before by bullet level: 10pt for level 0, 3pt for level 1+
+    _default_space_before = {0: 10, 1: 3}
     for index, paragraph_spec in enumerate(paragraphs):
         paragraph = frame.paragraphs[0] if index == 0 else frame.add_paragraph()
         text = paragraph_spec.text
@@ -142,6 +146,17 @@ def _add_text(slide, element: TextElement, box: tuple[float, float, float, float
             text = f"{'  ' * paragraph_spec.level}• {text}"
         paragraph.text = text
         paragraph.level = paragraph_spec.level
+        # Line spacing
+        paragraph.line_spacing = line_spacing
+        # Space before
+        space_before = paragraph_spec.space_before
+        if space_before is None and paragraph_spec.bullet:
+            space_before = _default_space_before.get(paragraph_spec.level, 3)
+        if space_before is not None:
+            paragraph.space_before = Pt(space_before)
+        # Space after
+        if paragraph_spec.space_after is not None:
+            paragraph.space_after = Pt(paragraph_spec.space_after)
         if theme:
             paragraph.font.name = theme.fonts.body
             if "text" in theme.colors:
@@ -162,6 +177,8 @@ def _add_text(slide, element: TextElement, box: tuple[float, float, float, float
             paragraph.font.bold = element.bold
         if paragraph_spec.bold is not None:
             paragraph.font.bold = paragraph_spec.bold
+        if paragraph_spec.url is not None and paragraph.runs:
+            paragraph.runs[0].hyperlink.address = paragraph_spec.url
 
 
 def _add_shape(slide, element: ShapeElement, box: tuple[float, float, float, float], theme) -> None:
